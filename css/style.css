@@ -13,6 +13,12 @@ body {
 
 }
 
+.dogs {
+    border: 1px yellow;
+    color: darkgray;
+    column-gap: 23px;
+}
+
 .nav_item {
     column-gap: 20px;
 }
@@ -25,7 +31,12 @@ body {
 
 .wrapper {
 
-    min-height: 100%;
+    min-height: 3256px;
+}
+
+.content {
+    margin: 0 auto;
+    max-height: 3256px;
 }
 
 .offer {
@@ -52,7 +63,7 @@ body {
 }
 
 
-.title-block {
+.title_block {
     font-size: 100px;
     margin: 10px;
 }
@@ -69,10 +80,23 @@ body {
 
 }
 
-.btn-qaz {
+.description block {
     display: flex;
-    justify-content: space-evenly;
-    align-self: centent;
+    justify-content: first baseline;
+}
+
+.btn_qaz {
+    display: flex;
+    justify-content: baseline;
+
+
+}
+
+.dearly {
+    font-size: 50px;
+    color: #fefafa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 
 }
 
@@ -88,8 +112,8 @@ body {
 }
 
 .container {
-    display: flex;
-    vertical-align: 10px;
+    margin: 0 auto;
+    max-height: 3256px;
 
 }
 
@@ -115,4 +139,59 @@ body {
 .nav_item {
     color: #ff6600;
 
+}
+
+
+.friend {
+    font-size: 20px;
+    color: #8b8b8b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texst {
+    font-size: 50px;
+    color: #fefafa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    justify-content: last baseline;
+}
+
+.block {
+    font-size: 40px;
+    color: #151515;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.description {
+    font-size: 40px;
+    color: #2d2a2a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+
+.logo {
+    background-color: #fefafa;
+}
+
+.hero {
+    background-image: url(../css/img/start-screen-gradient-background.png);
+}
+
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.block {
+    justify-self: start;
+}
+
+.description block {
+    display: flex;
+    justify-content: flex-start;
 }

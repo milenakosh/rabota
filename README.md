@@ -1,2 +1,2 @@
 # rabota
- https://milenakosh.github.io/rabota/
+https://milenakosh.github.io/rabota/
